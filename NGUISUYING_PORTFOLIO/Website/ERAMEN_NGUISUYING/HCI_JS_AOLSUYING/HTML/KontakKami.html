@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="/CSS/NavBar.css">
+    <link rel="stylesheet" href="/CSS/Footer.css">
+    <link rel="stylesheet" href="/CSS/KontakKami.css">
+    <script src="/JS/validation.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav_content">
+            <a href="">Beranda</a>
+            <a href="">Promosi</a>
+            <img class="navbar_pic" src="/IMAGE HTML/LOGONAVBARERAMEN.png" alt="">
+            <a href="">Produk</a>
+            <a href="">Kontak Kami</a>
+        </div>
+    </nav>
+    <br>
+    <div id="container">
+        <div>
+            <form action="" onsubmit="return validation()">
+                <div class="inputs">
+                    <label for="nama">Nama Lengkap : </label>
+                    <input type="text" name="" id="nama">
+                </div>
+                <br>
+                <div class="inputs">
+                    <label for="email">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                    <input type="email" name="" id="email">
+                </div>
+                <br>
+                <div class="inputs">
+                    <label for="telp">Nomor Telepon : </label>
+                    <input type="text" name="" id="telp">
+                </div>
+                <p style="font-size: xx-large;">Jenis Kelamin : </p>
+                <div class="radios">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Perempuan</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Laki-laki</label>
+                </div>
+                <br>
+                <div class="inputs">
+                    <label for="saran">Saran : </label>
+                    <textarea name="" id="saran" cols="100" rows="10"></textarea>
+                </div>
+                <hr>
+                <p style="font-size: xx-large;">Preferensi Ramen</p>
+                <div class="radios">
+                    <input type="radio" name="ramen" id="kering" value="kering">
+                    <label for="kering">Ramen Kering</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="ramen" id="kuah" value="kuah">
+                    <label for="kuah">Ramen Kuah</label>
+                </div>
+                <p style="font-size: xx-large;">Level Pedas</p>
+                <div class="radios">
+                    <input type="radio" name="pedas" id="pedas" value="pedas">
+                    <label for="pedas">Pedas</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="pedas" id="sedang" value="sedang">
+                    <label for="sendang">Sedang</label>
+                </div>
+                <div class="radios">
+                    <input type="radio" name="pedas" id="tidak" value="tidak">
+                    <label for="tidak">Tidak Pedas</label>
+                </div>   
+                <button type="submit">Contact Us!</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footer">
+        <div class = "footer_main1">
+            <div class = "footer_content1">
+                <div class = "footer_line"></div>
+                <img class ="footer_pic" src="/IMAGE HTML/LOGOFOOTER RAMEN.png" alt ="">
+                <b> Cita Rasa Autentik Langsung dari Jepang! </b>
+            </div>
+
+            <div class = "footer_content2">
+                <a href ="/HTML/Home.html">Menu</a>
+                <a href ="/HTML/Promosi.html">Penawaran</a>
+                <a href ="/HTML/TentangKami.html">Tentang Kami</a>
+            </div> 
+
+            <div class = "footer_content3">  
+                <p>Pembayaran</p>
+                <img class="BCAGOPAYPHOTO" src="/IMAGE HTML/BCAGOPAY.png" alt ="">
+            </div>    
+
+            <div class = "footer_content4">   
+                <p>Temukan kami!</p>
+                <img class="IGFOOTER" src="/IMAGE HTML/IGFOOTER.png" alt ="">
+                
+            </div>
+        </div>
+        <div class="footer_main2">
+            <div class="rectangle_footer">
+            <p>@NguiSuYingHCIAOL</p>
+        </div>
+    </div>
+</body>
+</html>
+
+

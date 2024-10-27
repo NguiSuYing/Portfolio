@@ -1,0 +1,25 @@
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.inputs label{
+    font-size: xx-large;
+}
+
+.inputs input {
+    width: 500px;
+    font-size: large;
+    height: 40px;    
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.radios label {
+    font-size: xx-large;
+}
+
+textarea {
+    border-radius: 20px;
+}
